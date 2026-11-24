@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Rubik";
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: "Rubik-med";
+    src: url(../fonts/Rubik-Medium.ttf);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    font-family: "Rubik";
+    margin: 32px auto 44px auto;
+    /*background-color: red;*/
+ }
+body{
+
+}
+.container {
+    width: 1180px;
+    height: auto;
+    /*background-color: beige;*/
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 72px;
+
+}
+.find_text{
+    border: 0px solid;
+    border-color: black;
+    box-sizing: border-box;
+    border-bottom: 1.5px solid;
+    background-color: transparent;
+    width: 320px;
+    height: 25px;
+    color: #333333;
+    font-family: "Rubik";
+    font-size: 16px;
+    margin-right:32px;
+}
+.find_button{
+    background-color: transparent;
+    color: #E5261E;
+    box-sizing: border-box;
+    border: 0px solid;
+    width: 50px;
+    height:19px;
+    font-family: Rubik-med;
+
+
+}
+.LogInButton{
+    background-color: #E5261E;
+    border:0 solid;
+    color: white;
+    font-size: 16px;
+    font-family: Rubik-med;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+
+}
+.LogInButton:hover{
+    background-color: rgb(207, 23, 23);
+    cursor: pointer;
+}
+.VideoService{
+    display: flex;
+    align-self: center;
+     font-family: "Rubik-med";
+     margin-left:11.88px;
+     font-size: 20px;
+}
+.LogInDiv{
+    width: 113px;
+    height: 38px;
+}
+.find_text:focus{
+    outline: none;
+}
+.logo_search{
+display: flex;
+flex-direction: row;
+width: 182px;
+height: 36px;
+justify-content: space-between;
+}
+.search_bar{
+    width: 402px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav{
+    width: 311px;
+    height: 42px;
+    /*background-color: grey;*/
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav a{
+    font-family: Rubik-med;
+    font-size:28px;
+    color:#333333;
+    text-decoration: none;
+}
+.nav a:hover{
+    color:#E5261E;
+    border-bottom: 2px #E5261E solid;
+    padding-bottom:9px;
+}
+.NovinkiBigDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.MidDiv{
+    width: 280px;
+    position: relative;
+
+}
+.GalImg{
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+.GalDesc{
+    width: 280px;
+    height: 370px;
+    border-radius: 8px;
+    background-color: rgba(51, 51, 51, 0.8);
+    color:#f2f2f2;
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 16px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+        transition:0.5s
+}
+.MidDiv:hover .GalDesc{
+    opacity: 1;
+    cursor: pointer;
+}
+.GalP{
+    font-family: Rubik;
+    color: #333333;
+    font-size: 20px;
+}
+.Genre-Comedy{
+background: linear-gradient(127.83deg, #F2C94C 8.44%, #F29A4A 91.36%);
+}
+.Genres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 252px;
+    width: 1180px;
+    margin: 0 auto;
+}
+.Genre{
+border-radius: 6px;
+width: 280px;
+height: 208px;
+transition: 0.3s;
+opacity: 0.8;
+box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.Genre-Drama{
+background: linear-gradient(127.83deg, #F2994A 8.44%, #EB5757 91.36%);
+}
+.Genre-Fantasy{
+background: linear-gradient(127.83deg, #56CCF2 8.44%, #2F80ED 91.36%);
+}
+.Genre-Horror{
+background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+}
+.Genre:hover{
+    opacity: 1;
+}
+.Emoji{
+    font-size: 48px;
+    font-family: Rubik;
+}
+.GenreP{
+    position: absolute;
+    margin-top: 160px;
+    font-family: Rubik;
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.Novinki{
+    font-family: Rubik-med;
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #333333;
+}
+footer{
+    display: flex;
+    background-color: #F2F2F2;
+    height: 120px;
+    margin:0 auto;
+}
+.foter{
+    display: flex;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    color:#333333;
+    height: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:40px;
+    margin-top: 72px;
+
+}
+.footerCon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0 auto;
+    height: 100%;
+    width: 1180px;
+
+}
+.silka{
+    text-decoration: none;
+    color: #1F4766;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.form{
+    display: inline-block;
+    background-color: #E5261E;
+    color: white;
+    text-decoration: none;
+    padding: auto;
+    width: 113px;
+}
+.FormDiv{
+    width: 304px;
+    height: 394px;
+    background: white;
+    padding: 36px;
+
+}
+.Vhod{
+    font-family: Rubik-med;
+     font-size: 28;
+
+     margin-bottom: 24px;
+}
+.login{
+    width: 232px;
+    height: 25px;
+    margin-bottom: 24px;
+    border: #333333 none;
+    border-bottom: solid 1px;
+
+}
+input::placeholder{
+    font-family: Rubik;
+    font-size: 16px;
+}
+input:focus{
+    outline: none;
+}
+.zapomnit{
+    margin-bottom: 111px;
+    align-self: flex-start;
+}
+.RealForm{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 232px;
+    height: 322px;
+    background: white;
+    padding: 36px;
+    border: #333333 solid 1px;
+
+}
+.voiti{
+  display: inline-block;
+  padding: 10px 32px;
+  background-color: #E5261E;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: Rubik-med;
+  font-size: 16px;
+}
+
+label{
+    display: flex;
+    align-self: flex-start;
+
+}
